@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mishka Shop</title>
+    <link rel="stylesheet" href="../CSS/profile.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="../index.html">
+          <img class="navbar__logo" src="../IMG/logo.png" alt="" />
+        </a>
+        <div class="navbar__search">
+          <form action="search">
+            <input class="search" type="search" />
+          </form>
+        </div>
+        <nav>
+          <div class="navigation-basket">
+            <a href="basket.html">
+              <img src="../IMG/Корзина.png" alt="" />
+              <p class="basket-title">Корзина</p>
+            </a>
+          </div>
+
+          <div class="navigation-favorites">
+            <a href="favorite.html">
+              <img src="../img/Избранное.png" alt="" />
+              <p class="favorite-title">Избранное</p>
+            </a>
+          </div>
+          <div class="navigation-profile">
+            <a href="profile.html">
+              <img src="../IMG/Профиль.png" alt="" />
+              <p class="profile-title">Профиль</p>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <p class="title">Профиль</p>
+      <div class="profile__form">
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Имя</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault01"
+              value="Имя"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Фамилия</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              value="Фамилия"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label"
+              >Никнейм</label
+            >
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2"></span>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefaultUsername"
+                aria-describedby="inputGroupPrepend2"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                <p class="form-check-label-text">
+                  я согласен с политикой конфиденциальности
+                </p>
+              </label>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">
+                  Регистрация
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__bg">
+        <div>
+          <img class="footer__logo" src="../IMG/logo.png" alt="" />
+          <p class="footer__copyright">
+            © 2024 Любое использование контента без письменного разрешения
+            запрещено
+          </p>
+        </div>
+        <div>
+          <p class="footer__social-text">Наши социальные сети</p>
+          <div class="footer__social">
+            <a href="#">
+              <img
+                class="footer__vk"
+                src="../IMG/rus_vk_02_icon_iconscom_50758_negate 1.png"
+                alt=""
+            /></a>
+            <a href="#">
+              <img
+                class="footer__tg"
+                src="../IMG/telegram_icon_131945_negate 1.png"
+                alt=""
+            /></a>
+            <a href="#">
+              <img
+                class="footer__yt"
+                src="../IMG/YOUTUBE_icon_iconscom_65487_negate 1.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="footer__mail">
+          <p>Почта</p>
+          <p>Mishka_shop@mail.ru</p>
+          <div>
+            <img class="footer__pay" src="../IMG/image 1.png" alt="" />
+            <img class="footer__pay" src="../IMG/image 2.png" alt="" />
+            <img class="footer__pay" src="../IMG/image 3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

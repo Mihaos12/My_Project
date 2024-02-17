@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mishka Shop</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#">
+            <img class="navbar__logo" src="IMG/logo.png" alt="">
+        </a>
+            <div class="navbar__search">
+                <form action="search">
+                    <input class="search" type="search">
+                </form>
+            </div>
+            <nav>
+                <div class="navigation-basket">
+                    <a href="HTML/basket.html">
+                    <img src="IMG/Корзина.png" alt="">
+                    <p class="basket-title">Корзина</p>
+                </a>
+                </div>
+
+                <div class="navigation-favorites">
+                    <a href="HTML/favorite.html">
+                    <img src="img/Избранное.png" alt="">
+                    <p class="favorite-title">Избранное</p>
+                </a>
+                </div>
+                <div class="navigation-profile">
+                    <a href="HTML/profile.html">
+                    <img src="IMG/Профиль.png" alt="">
+                    <p class="profile-title">Профиль</p>
+                </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="promotion__section">
+                <div class="promotion">
+                    <p class="promotion-title">СКИДКА</p>
+                    <p class="promotion-text">Новая Коллекция Свитеры и Шапочки</p>
+                    <p class="promotion__discount">-40%</p>
+                </div>
+            </section>
+            <section class="category__section">
+                <p class="title">Категории</p>
+                <div class="category">
+                    <div class="category-sviter">
+                        <a class="category-text">
+                            <img src="IMG/свитеры.png" alt="">
+                            <p class="sviter-title">Свитеры</p>
+                        </a>
+                    </div>
+                    <div class="category-shapka">
+                        <a class="category-text">
+                            <img src="IMG/шапочки.png" alt="">
+                            <p class="shapka-title">Шапочки</p>
+                        </a>
+                    </div>
+                    <div class="category-pinetka">
+                        <a class="category-text">
+                            <img src="IMG/пинетки.png" alt="">
+                            <p class="pinetka-title">Пинетки</p>
+                        </a>
+                    </div>
+                    <div class="category-pled">
+                        <a class="category-text">
+                            <img src="IMG/пледы.png" alt="">
+                            <p class="pled-title">Пледы</p>
+                        </a>
+                    </div>
+                    <div class="category-kombinezon">
+                        <a class="category-text"><img src="IMG/комбинезоны.png" alt="">
+                            <p class="kombinezon-title">Комбинезоны</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="popular__section">
+                <p class="title">Популярное</p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/свитер2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1250₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/плед1.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный плед №1</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1400₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка3.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №3</p>
+                            <div class="card__price">
+                                <p class="card__price_text">720₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/комбинезон2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный комбинезон №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1850₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sviter__section">
+                <p class="title">Свитеры</p>
+                <div class="cards">
+                    <div class="promotion__card">
+                        <p class="promotion__card-discount">-40%</p>
+                        <p class="promotion__card-text">Новая Коллекция</p>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/свитер2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №1</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1150₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/свитер3.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1250₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/свитер4.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №3</p>
+                            <div class="card__price">
+                                <p class="card__price_text">950₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/свитер5.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №4</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1700₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/свитер6.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №5</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1650₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/pngwing.com.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный свитер №6</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1250₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="shapki__section">
+                <p class="title">Шапочки</p>
+                <div class="cards">
+                    <div class="promotion__card">
+                        <p class="promotion__card-discount">-40%</p>
+                        <p class="promotion__card-text">Новая Коллекция</p>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка1.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №1</p>
+                            <div class="card__price">
+                                <p class="card__price_text">750₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">850₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка3.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №3</p>
+                            <div class="card__price">
+                                <p class="card__price_text">720₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка4.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №4</p>
+                            <div class="card__price">
+                                <p class="card__price_text">850₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка5.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №5</p>
+                            <div class="card__price">
+                                <p class="card__price_text">850₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-40%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/шапка6.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаная шапочка №6</p>
+                            <div class="card__price">
+                                <p class="card__price_text">750₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pinetki__section">
+                <p class="title">Пинетки</p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-10%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/пинетки4.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаные пинетки №1</p>
+                            <div class="card__price">
+                                <p class="card__price_text">650₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-25%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/пинетки1.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаные пинетки №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">500₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-25%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/пинетки2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаные пинетки №3</p>
+                            <div class="card__price">
+                                <p class="card__price_text">500₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-30%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/пинетки3.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаные пинетки №4</p>
+                            <div class="card__price">
+                                <p class="card__price_text">450₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pled__section">
+                <p class="title">Пледы</p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-10%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/плед1.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный плед №1</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1400₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-10%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/плед2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный плед №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1450₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-15%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/плед3.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный плед №3</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1150₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-10%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/плед4.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный плед №4</p>
+                            <div class="card__price">
+                                <p class="card__price_text">750₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="kombinezon__section">
+                <p class="title">Комбинезоны</p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-5%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/комбинезон1.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный комбинезон №1</p>
+                            <div class="card__price">
+                                <p class="card__price_text">3000₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-20%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/комбинезон2.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный комбинезон №2</p>
+                            <div class="card__price">
+                                <p class="card__price_text">1850₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-10%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/комбинезон3.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный комбинезон №3</p>
+                            <div class="card__price">
+                                <p class="card__price_text">2550₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__header">
+                            <img class="card__heart" src="IMG/like_favorite_heart_5759 (1) 1.png" alt="">
+                            <div class="card__discount">
+                                <p class="card__discount-text">-5%</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="card__image" src="IMG/комбинезон4.png" alt="">
+                        </div>
+                        <div class="card__footer">
+                            <p class="card__title">Вязаный комбинезон №4</p>
+                            <div class="card__price">
+                                <p class="card__price_text">2150₽</p>
+                            </div>
+                            <a href="HTML/basket.html">
+                            <img class="card__basket" src="IMG/Корзина123.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__bg">
+            <div>
+                <img class="footer__logo" src="IMG/logo.png" alt="">
+                <p class="footer__copyright">© 2024 Любое использование контента без письменного разрешения запрещено</p>
+            </div>
+            <div>
+                <p class="footer__social-text">Наши социальные сети</p>
+                <div class="footer__social">
+                    <a href="#">
+                        <img class="footer__vk"
+                          src="IMG/rus_vk_02_icon_iconscom_50758_negate 1.png"
+                          alt=""
+                      /></a>
+                      <a href="#">
+                        <img class="footer__tg" src="IMG/telegram_icon_131945_negate 1.png" alt=""
+                      /></a>
+                      <a href="#">
+                        <img class="footer__yt" src="IMG/YOUTUBE_icon_iconscom_65487_negate 1.png" alt=""
+                      /></a>
+                </div>
+            </div>
+            <div class="footer__mail">
+                <p>Почта</p>
+                <p>Mishka_shop@mail.ru</p>
+                <div>
+                    <img class="footer__pay" src="IMG/image 1.png" alt="">
+                    <img class="footer__pay" src="IMG/image 2.png" alt="">
+                    <img class="footer__pay" src="IMG/image 3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/script.js">
+    </script>
+</body>
+</html>
